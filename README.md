@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+command: npx hardhat node npx hardhat compile npx hardhat test
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Deploy: npx hardhat run scripts/deploy.js --network matic
 
-Try running some of the following tasks:
+polygon testnet: https://mumbai.polygonscan.com/address/0xf14fD5FFEbBa9493Dd7Fb2CC33D97B1589C29A88
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Reference: 
+
+https://docs.celo.org/blog/tutorials/how-to-mint-your-erc1155-nft-on-celo-with-remix
+
+https://docs.celo.org/blog/tutorials/how-to-create-deploy-and-mint-your-erc1155-token-on-celo-with-hardhat
+
+https://www.youtube.com/watch?v=J4p1sdo3Rz4&list=WL&index=6&t=4s
+
